@@ -33,7 +33,6 @@ html_head = """
 
 """
 html_tail = """
-<p> this is the end </p>
 </body>
 </html>
 """
@@ -45,10 +44,7 @@ rotation_form = """
         <br>
         %(phrase)s
         <br>
-        <textarea type = "text" name = "test"
-            style="height:150px; width:450px">
-        %(test)s
-        </textarea>
+        <textarea type="text" name = "test" style="height:125px; width:500px;">%(test)s</textarea>
         <br>
         <input type = "submit">
     </form>
